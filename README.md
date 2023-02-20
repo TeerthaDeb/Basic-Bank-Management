@@ -2,7 +2,7 @@
 "// Author: Maharaj Teertha Deb ;\t*\t; GitHub: github.com/TeerthaDeb",
 "//***********************************************************************\n\n",
 
-Welcome to the Basic-Bank-Management report
+Welcome to the Basic Project
 
 
 A Report on Project: 
@@ -12,8 +12,8 @@ by
 
 ## Maharaj Teertha Deb
 
-Git: github.com/TeerthaDeb
-Stop_stalk : stopstalk.com/user/profile/Teertha_Deb
+## Git: github.com/TeerthaDeb
+## Stop_stalk : stopstalk.com/user/profile/Teertha_Deb
 
 ## List of functions and their operation in the Project:
 
@@ -89,40 +89,44 @@ Stop_stalk : stopstalk.com/user/profile/Teertha_Deb
 
 ## Description of the project:
 1. Login: When the project is opened for the first time, is asks user to select a password.
- 
-If given password and confirm password is not same, then the program will ask the user to set password again. And if both password matches, the password is set.
+ If given password and confirm password is not same, then the program will ask the user to set password again. And if both password matches, the password is set.
   
 
-2. Main Menu: The program will then take user to the main menu and user will get all the access of the system through this. User needs press any key to manage the system.
+2. Main Menu: The program will then take user to the main menu and user will get all the access of the system through this.
+	Userneeds press any key to manage the system.
  
 
-3. Create New account: If user selects 1, then user will be directed to the new account section. And will be asked how many accounts to be added. User can select any number of accounts to be created, and then can give the informations nedded to open a bank account.
-  
-However, if there are any previous accounts with the bank, these account(s) will remain as they are, but new account with an account number of any existing account will not be created, as all the accounts should be unique.
+3. Create New account: If user selects 1, then user will be directed to the new account section. 
+	And will be asked how many accounts  to be added. User can select any number of accounts to be created, and then can give the informations nedded to open a bank account.
+	However, if there are any previous accounts with the bank, these account(s) will remain as they are, but new account with an account number of any existing account will not be created, as all the accounts should be unique.
   
 
-4. Show all accounts: If user wants to see all the accounts and necessary details, user needs to go back to main menu and press 2. All the accounts will be listed in the screen.
+4. Show all accounts: If user wants to see all the accounts and necessary details, user needs to go back to main menu and press 2
+	All the accounts will be listed in the screen.
  
 
-5. Transection :  This project allows user to make successful transection for the account holders. User needs to go to the main menu and select 3 to call the transection section of the project. When user calls the transection section, program asks for the account number, as all account numbers are unique, no multiple accounts will be selected during the process.
+5. Transection :  This project allows user to make successful transection for the account holders. 
+	User needs to go to the main menu and select 3 to call the transection section of the project. When user calls the transection section, program asks for the account number, as all account numbers are unique, no multiple accounts will be selected during the process.
+  	If user enters the correct account number then the program will show the name and amount of the account holder to make sure that the user selected the target account successfully and how much can be cashed out.
+
+	If user wants to cash out more amount than the amount is in the account, the program will warn the user that it is not possible.
   
-If user enters the correct account number then the program will show the name and amount of the account holder to make sure that the user selected the target account successfully and how much can be cashed out.
-  
-If user wants to cash out more amount than the amount is in the account, the program will warn the user that it is not possible.
-  
-But It is possible to cash out lower or equal amount currently stored in the account. However, any amount can be cashed in to the account.
+	But It is possible to cash out lower or equal amount currently stored in the account. However, any amount can be cashed in to the account.
  
 
-6. Check full details of an account : If user needs to check full details of an existing account, user needs to go to the main menu section and then select 4. Then user will be asked to account holder name or account number.  
-If the name or account number is not present in the record, a message will pop up that no such account with the name or account number is present in the record But if present then it will be shown in the screen.
+6. Check full details of an account : If user needs to check full details of an existing account, user needs to go to the main menu section and then select 4. 
+	Then user will be asked to account holder name or account number.  
+	If the name or account number is not present in the record, a message will pop up that no such account with the name or account number is present in the record But if present then it will be shown in the screen.
  
 
-7. Delete an account : Sometimes some accounts need to be deleted. And user can do this easily by going to main menu and press 5. The texts in the screen then will be red to warn the user that the deleted account can’t be recalled.
-  If user enters an account number, the account will be deleted from the list.
+7. Delete an account : Sometimes some accounts need to be deleted. 
+	And user can do this easily by going to main menu and press 5. The texts in the screen then will be red to warn the user that the deleted account can’t be recalled.
+  	If user enters an account number, the account will be deleted from the list.
  
  
-8. Update current password:  Some times the current password for the project needs to be changed. User can change this by selecting 6 from the main menu. 
-User then need to enter the current password and then can set a new password for the management system. When a password is set, the password is encrypted by bitmasking to ensure security
+8. Update current password:  Some times the current password for the project needs to be changed. 
+	User can change this by selecting 6 from the main menu. 
+	User then need to enter the current password and then can set a new password for the management system. When a password is set, the password is encrypted by bitmasking to ensure security.
   
 
 9. Exiting from program:  Finally, when everything is done, user can call the ext function from main menu by pressing 7 and all the memory will be cleared and the program will be terminated within a few seconds.
